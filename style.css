@@ -21,12 +21,11 @@ body{
 }
 #nav{
    
-    clear:both;
+    
     background:#ebebeb;
     top:60px;
     padding:40px;
     width : 960px;
-    overflow: auto;
     margin-top: 20px;
     margin-left:140px;
 
@@ -36,27 +35,24 @@ body{
 }
 
 #section{
-    clear:both;
     background:#ebebeb;
     color:black;
-    top:80px;
     padding:90px;
     width : 550px;
     height:350px;
     margin-top: 20px;
     margin-left:140px;
-    text-align: left;
+    text-align: center
+    
    
 }
 
 #article{
     background: gray;
-    color:wheat;
     width: 508px;
-    height: 255px;
+    height: 230px;
     position: absolute;
-    overflow: auto;
-    margin-top:-30px;
+   /* margin-top:*/
     margin-left:-65px;
     
     
@@ -69,6 +65,7 @@ body{
   border:1px solid #eeee;
   margin-left: 710px;
   margin-top:-350px;
+  margin-right: -50px;
   float:left; 
 }
 #h1 
@@ -77,7 +74,6 @@ body{
        width: 480px;
        height: 50px;
        position: absolute;
-       overflow: auto;
        margin-top:80px;
        margin-left:-55px;
 }
